@@ -1,0 +1,19 @@
+export const MANISA_DISTRICTS = [
+  'Yunusemre',
+  'Şehzadeler',
+  'Akhisar',
+  'Salihli',
+  'Turgutlu',
+  'Soma',
+  'Alaşehir',
+  'Demirci',
+  'Kırkağaç',
+  'Saruhanlı',
+  'Gördes',
+  'Kula',
+  'Selendi',
+  'Ahmetli',
+  'Sarıgöl',
+  'Köprübaşı',
+  'Gölmarmara'
+];

@@ -1,0 +1,51 @@
+# =====================
+# .NET Backend
+# =====================
+
+# Build çıktıları
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# Diğer
+*.log
+*.swp
+
+# =====================
+# Node / Frontend
+# =====================
+
+# Bağımlılıklar
+node_modules/
+
+# Build çıktısı
+dist/
+
+# Vite cache
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment dosyaları
+.env
+.env.local
+.env.production
+
+# =====================
+# Editör Dosyaları
+# =====================
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
