@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +20,7 @@ button {
 input, textarea, select {
   font-family: inherit;
 }
+/* Bildirim Formu*/
 .report-form-container {
   position: relative;
   min-height: 100vh;
@@ -167,6 +169,7 @@ input, textarea, select {
 .admin-link a:hover {
   text-decoration: underline;
 }
+/*Giriş Ekranı*/
 .login-container {
   min-height: 100vh;
   display: flex;
@@ -196,6 +199,7 @@ input, textarea, select {
   text-align: center;
   margin-bottom: 2rem;
 }
+/* Dashboard*/
 .loading {
   min-height: 100vh;
   display: flex;
@@ -265,6 +269,7 @@ input, textarea, select {
   padding: 2rem;
 }
 
+/*İstatistik Kartları */
 .stats-header {
   display: flex;
   justify-content: space-between;
@@ -340,6 +345,7 @@ input, textarea, select {
   color: #1a3a5c;
 }
 
+/* Filtre Çubuğu*/
 .filter-bar {
   display: flex;
   gap: 0.5rem;
@@ -382,6 +388,7 @@ input, textarea, select {
   color: #1a73e8;
 }
 
+/* İhbar Tablosu*/
 .table-wrapper {
   background: white;
   border-radius: 10px;
@@ -431,6 +438,7 @@ input, textarea, select {
   max-width: 280px;
 }
 
+/* Durum Etiketleri*/
 .status-badge {
   display: inline-block;
   padding: 0.3rem 0.7rem;
@@ -535,6 +543,7 @@ input, textarea, select {
   background-color: #e8f5e9;
 }
 
+/* Rapor*/
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -647,6 +656,7 @@ input, textarea, select {
   background-color: #1557b0;
 }
 
+
 .empty-state {
   background: white;
   padding: 3rem;
@@ -656,6 +666,7 @@ input, textarea, select {
   color: #999;
 }
 
+/*Responsive */
 @media (max-width: 1024px) {
   .dashboard-main {
     padding: 1.5rem 1.25rem;
@@ -894,7 +905,7 @@ input, textarea, select {
   }
 }
 
-/* ===== Personel Yönetimi ===== */
+/*Personel Yönetimi*/
 .header-actions {
   display: flex;
   gap: 0.6rem;
@@ -1045,7 +1056,7 @@ input, textarea, select {
   }
 }
 
-/* ===== Global responsive supplements ===== */
+/* Global responsive supplements */
 html {
   -webkit-text-size-adjust: 100%;
 }
@@ -1111,7 +1122,7 @@ img, svg, video {
     flex: 1 1 auto;
     min-width: 120px;
   }
-  /* iOS zoom prevention: input font-size >= 16px on focus */
+  /* iOS zoom engelleme: input font-size >= 16px on focus */
   .form-group input,
   .form-group textarea,
   .form-group select,
