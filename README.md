@@ -3,7 +3,7 @@
 ## Gereksinimler
 
 - .NET 8 SDK
-- Node.js
+- Node.js 20.19+
 - PostgreSQL
 
 ## Kurulum
@@ -13,8 +13,10 @@
 PostgreSQL kurulu ve çalışır durumda olmalı. `backend/ManisaTrafik.Api/appsettings.json` dosyasındaki bağlantı bilgilerini kendi ortamınıza göre düzenleyin:
 
 ```
-Host=localhost;Database=manisatrafik;Username=postgres;Password=your_password
+Host=localhost;Port=5432;Database=manisa_trafik;Username=postgres;Password=12345
 ```
+
+`Password` kısmına kendi PostgreSQL şifrenizi yazın. Veritabanı ilk çalıştırmada otomatik oluşturulur.
 
 ### 2. Backend
 
@@ -37,19 +39,13 @@ npm run dev
 
 Uygulama http://localhost:5173 adresinde açılır.
 
-## Kullanım
-
-- Ana sayfa: vatandaş bildirim formu (giriş gerektirmez)
-- /admin/login: yetkili giriş ekranı
-- /admin/dashboard: ihbarları listeleme ve durum güncelleme
-
-## Notlar
-
-- Local proje olduğu için admin şifreleri db şifrelerini basit tuttum.
-- 
 ## Sayfalar
 
 - `/` — Vatandaş bildirim formu (giriş gerektirmez)
 - `/admin/login` — Yetkili giriş ekranı
 - `/admin/dashboard` — İhbar yönetim paneli
 - `/admin/users` — Kullanıcı yönetimi (sadece Admin)
+
+## Notlar
+
+- Local proje olduğu için admin ve veritabanı şifrelerini basit tuttum.
